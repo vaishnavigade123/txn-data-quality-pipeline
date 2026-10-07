@@ -1,0 +1,1 @@
+:warning: WARNING Transaction feed quality gate failed. Score=45.5/100. Failed checks: completeness, validity, uniqueness.

@@ -1,0 +1,62 @@
+transaction_id,account_id,timestamp,merchant,channel,currency,amount
+7282f2fb-e6e,ACC-69294,2026-08-19 22:37:25,Best Buy,in_store,CAD,
+7adaec66-bed,ACC-90472,2026-08-19 22:37:27,Target,online,CAD,99999.99
+545e4881-60d,ACC-21884,2026-08-19 22:37:28,Best Buy,mobile_app,USD,
+1b7541de-9d6,ACC-61925,2026-08-19 22:37:29,Delta Airlines,mobile_app,EUR,
+5f03c54a-2d4,ACC-11966,2026-08-19 22:37:30,Best Buy,online,USD,
+26510a9b-ec3,ACC-70808,2026-08-19 22:37:32,Netflix,in_store,EUR,
+ea0c07e8-5b6,ACC-21139,2026-08-19 22:37:34,Delta Airlines,mobile_app,usd$,50.62
+f469dc31-759,ACC-43291,2026-08-19 22:37:35,Netflix,online,GBP,
+9c479bcd-2c3,ACC-19204,2026-08-19 22:37:36,Costco,online,CAD,
+0e7f9373-3d8,ACC-99770,2026-08-19 22:37:38,Amazon,online,EUR,
+ab5c3f6d-f5f,ACC-71602,2026-08-19 22:37:39,Shell,mobile_app,usd$,158.35
+99f6d2a6-0b3,ACC-84218,2026-08-19 22:37:40,Starbucks,mobile_app,GBP,99999.99
+e124df44-da7,ACC-25465,2026-08-19 22:37:42,Target,online,USD,
+cbbdfea4-f12,ACC-27166,2026-08-19 22:37:45,Shell,mobile_app,CAD,
+217d0bff-c3e,ACC-61754,2026-08-19 22:37:46,Shell,online,USD,500000.0
+a892bbbd-90e,ACC-88907,2026-08-19 22:37:48,Costco,online,USD,-78.76
+85f46bea-2d4,ACC-89997,2026-08-19 22:37:50,Netflix,in_store,CAD,
+5c95952b-f86,ACC-19736,2026-08-19 22:37:51,Walmart,online,EUR,
+4e0502aa-1e9,ACC-88811,2026-08-19 22:37:52,Netflix,in_store,CAD,-80.46
+d0b99fac-c61,ACC-60606,2026-08-19 22:37:54,Target,mobile_app,EUR,99999.99
+35914672-412,ACC-90012,2026-08-19 22:37:55,Starbucks,mobile_app,EUR,-13.54
+c1397e44-f9c,ACC-92441,2026-08-19 22:37:56,Best Buy,online,usd$,25.05
+249e6ca9-a45,ACC-65241,2026-08-19 22:37:57,Amazon,online,USD,
+e4958139-d81,ACC-77155,2026-08-19 22:37:58,Uber,online,CAD,500000.0
+58142ab4-302,ACC-19014,2026-08-19 22:38:00,Target,online,CAD,
+59b9f7a3-45d,ACC-95656,2026-08-19 22:38:01,Costco,mobile_app,USD,99999.99
+e13fb600-51d,ACC-36735,2026-08-19 22:38:02,Amazon,online,,179.85
+f3c6beb2-463,ACC-42645,2026-08-19 22:38:03,Amazon,online,EUR,500000.0
+ae92dce0-98f,ACC-79599,2026-08-19 22:38:04,Costco,online,USD,99999.99
+5492f257-dfa,ACC-69027,2026-08-19 22:38:05,Netflix,mobile_app,EUR,
+c01c02ec-c00,ACC-50868,2026-08-19 22:38:07,Amazon,online,usd$,115.05
+83934542-976,ACC-50771,2026-08-19 22:38:08,Netflix,online,USD,
+6b0711b6-c7b,ACC-75526,2026-08-19 22:38:12,Costco,online,usd$,11.12
+9fc7d75d-356,ACC-25149,2026-08-19 22:38:14,Uber,in_store,,41.85
+31fcc335-916,ACC-67740,2026-08-19 22:38:15,Delta Airlines,mobile_app,USD,
+acc322f2-634,ACC-77440,2026-08-19 22:38:16,Amazon,in_store,usd$,67.67
+8ef34d6d-46f,ACC-40175,2026-08-19 22:38:17,Walmart,in_store,CAD,99999.99
+6e296f9e-bfb,ACC-58228,2026-08-19 22:38:18,Uber,online,EUR,
+5cc459a4-460,ACC-32230,2026-08-19 22:38:19,Netflix,mobile_app,XYZ,136.76
+c2272360-21c,ACC-52855,2026-08-19 22:38:20,Shell,mobile_app,GBP,-22.92
+2c64a458-34f,ACC-93122,2026-08-19 22:38:21,Shell,online,XYZ,138.12
+79b0aae9-6e6,ACC-86429,2026-08-19 22:38:22,Netflix,online,EUR,-79.24
+570e8288-a6d,ACC-75072,2026-08-19 22:38:23,Netflix,online,USD,99999.99
+13f21b05-115,ACC-24788,2026-08-19 22:38:24,Delta Airlines,in_store,GBP,-77.16
+9155a74b-626,ACC-51336,2026-08-19 22:38:26,Costco,in_store,GBP,
+06859a92-348,ACC-83929,2026-08-19 22:38:29,Amazon,mobile_app,,69.93
+9aacdc68-674,ACC-28464,2026-08-19 22:38:31,Amazon,mobile_app,usd$,88.45
+6e63d10c-3f4,ACC-92570,2026-08-19 22:38:32,Best Buy,mobile_app,GBP,
+193d96db-ec1,ACC-99717,2026-08-19 22:38:33,Starbucks,online,CAD,99999.99
+7cd8d7b8-c16,ACC-11411,2026-08-19 22:38:34,Delta Airlines,mobile_app,USD,-52.95
+5a8570fb-efc,ACC-39682,2026-08-19 22:38:35,Uber,in_store,XYZ,67.54
+29b4e39b-bae,ACC-21430,2026-08-19 22:38:36,Shell,mobile_app,CAD,-51.12
+2ad2aa63-bf5,ACC-69048,2026-08-19 22:38:37,Delta Airlines,online,??,84.3
+f8e034b9-d77,ACC-70779,2026-08-19 22:38:38,Netflix,mobile_app,EUR,
+1856d175-c7a,ACC-94097,2026-08-19 22:38:39,Walmart,online,usd$,205.01
+308e2fda-b2a,ACC-12051,2026-08-19 22:38:41,Netflix,mobile_app,USD,
+c36a922e-ac3,ACC-18396,2026-08-19 22:38:44,Shell,online,EUR,
+c01c02ec-c00,ACC-50868,2026-08-19 22:38:07,Amazon,online,usd$,115.05
+e124df44-da7,ACC-25465,2026-08-19 22:37:42,Target,online,USD,
+74db7437-f7f,ACC-64261,2026-08-19 22:38:25,Shell,mobile_app,CAD,289.42
+64f974b7-b7e,ACC-83307,2026-08-19 22:37:44,Starbucks,in_store,EUR,43.52
