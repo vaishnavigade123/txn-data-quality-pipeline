@@ -143,32 +143,6 @@ regenerates a dirty test batch and confirms the pipeline still correctly
 catches it, on every single push. This is a genuinely real "data contract"
 test pattern, not just a formality.
 
-## Optional resume-booster: migrating to Great Expectations
-
-Everything here is hand-written so the logic is 100% transparent, but the
-exact same five check categories map directly onto Great Expectations
-"Expectations" (e.g. `expect_column_values_to_not_be_null`,
-`expect_column_values_to_be_between`, `expect_column_values_to_be_unique`,
-`expect_column_values_to_be_in_set` for currency codes). If you want an
-extra concrete tool name for your resume, install `great_expectations`,
-define an Expectation Suite mirroring `quality_checks.py`, and swap it in
-— the rest of the pipeline (quarantine logic, scoring, alerting) stays the same.
-
-## What to put in your portfolio writeup
-
-- The business problem: why trusting a transaction feed matters (double
-  charges, wrong balances, missed fraud) and what garbage-in-garbage-out
-  actually costs a financial business
-- The architecture diagram above
-- A demo video: run step 4 live, showing the pipeline catch a genuinely bad
-  batch (call out the duplicate-transaction and invalid-currency catches
-  specifically — those read as very "real" problems to a non-technical audience)
-- A chart of `quality_history.csv` showing score over multiple runs
-- A screenshot of the GitHub Actions tab with the CI check passing
-- What you'd add with more time (e.g., migrate to Great Expectations,
-  add a Streamlit dashboard for the quality history, integrate with a
-  real streaming payments source)
-
 ## Project structure
 ```
 txn-data-quality-pipeline/
