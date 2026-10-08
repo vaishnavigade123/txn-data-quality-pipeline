@@ -1,0 +1,44 @@
+# WHAT THIS FILE DOES (plain English):
+# Runs automatically on every push to GitHub. It regenerates a batch of
+# transactions (including a "dirty" one) and runs it through the quality
+# pipeline as a real test -- confirming the checks still correctly catch
+# bad data and the whole thing still runs without errors. This is a "data
+# contract" gate: if this pipeline breaks, you find out immediately, not
+# after a finance team complains about numbers not reconciling.
+
+name: CI - Transaction Data Quality Pipeline Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-quality-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate history + a dirty test batch
+        working-directory: scripts
+        run: |
+          python generate_data.py --init
+          python generate_data.py --new --dirty
+
+      - name: Run pipeline and confirm it correctly flags the dirty batch
+        working-directory: scripts
+        run: |
+          python -c "
+          from run_pipeline import run
+          outcome = run()
+          assert outcome['batch_ok'] is False, 'Pipeline failed to catch a known-dirty batch!'
+          print('CI check passed: pipeline correctly rejected dirty transaction data.')
+          "
